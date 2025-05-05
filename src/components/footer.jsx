@@ -28,12 +28,15 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <Link href="/">
-              <div className="relative h-10 w-32 mb-4">
+              <div className="relative h-32 w-32 ">
                 <Image
-                  src="/next.svg"
+                  src="/logo.jpg"
                   alt="Logo"
-                  fill
                   className="object-contain"
+                  priority
+                  width={80}
+                  height={80}
+                  style={{ maxHeight: "100%", maxWidth: "100%" }}
                 />
               </div>
             </Link>
@@ -165,7 +168,7 @@ const Footer = () => {
           </motion.div>
 
           {/* Contact Info */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -242,7 +245,7 @@ const Footer = () => {
                 </p>
               </li>
             </ul>
-          </motion.div>
+          </motion.div> */}
 
           {/* Newsletter */}
           {/* <motion.div

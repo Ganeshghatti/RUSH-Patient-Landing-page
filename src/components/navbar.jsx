@@ -43,7 +43,6 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between">
-          {/* Logo */}
           <motion.div
             className="flex-shrink-0"
             initial={{ opacity: 0 }}
@@ -51,18 +50,19 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
           >
             <Link href="/">
-              <div className="relative h-10 w-32 cursor-pointer">
+              <div className="relative  w-28 cursor-pointer overflow-hidden flex items-center">
                 <Image
-                  src="/next.svg"
+                  src="/logo.jpg"
                   alt="Logo"
-                  fill
                   className="object-contain"
                   priority
+                  width={80}
+                  height={80}
+                  style={{ maxHeight: "100%", maxWidth: "100%" }}
                 />
               </div>
             </Link>
           </motion.div>
-
           {/* Desktop Navigation */}
           <motion.div
             className="hidden md:flex items-center"
@@ -86,7 +86,6 @@ const Navbar = () => {
               </ul>
             </div>
           </motion.div>
-
           {/* Right buttons */}
           <motion.div
             className="hidden md:flex items-center space-x-4"
@@ -102,7 +101,6 @@ const Navbar = () => {
               Register
             </Button>
           </motion.div>
-
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button
