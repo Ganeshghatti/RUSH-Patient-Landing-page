@@ -93,13 +93,15 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            <Button
-              size="lg"
-              variant={"outline"}
-              className="cursor-pointer hover:bg-[#0069FD] border-2 text-[#0069FD] border-[#0069FD] bg-white h-11 hover:text-white"
-            >
-              Register
-            </Button>
+            <Link href={"https://app.rushdr.com/patient/register"}>
+              <Button
+                size="lg"
+                variant={"outline"}
+                className="cursor-pointer hover:bg-[#0069FD] border-2 text-[#0069FD] border-[#0069FD] bg-white h-11 hover:text-white"
+              >
+                Register
+              </Button>
+            </Link>
           </motion.div>
           {/* Mobile menu button */}
           <div className="md:hidden">

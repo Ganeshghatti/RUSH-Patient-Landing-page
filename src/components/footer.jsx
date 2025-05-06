@@ -288,22 +288,22 @@ const Footer = () => {
           </p>
           <div className="flex space-x-6">
             <Link
-              href="/terms"
+              href="https://www.rushdr.com/terms-conditions"
               className="text-gray-600 hover:text-[#0069FD] text-sm"
             >
               Terms of Service
             </Link>
             <Link
-              href="/privacy"
+              href="https://www.rushdr.com/privacy-policy"
               className="text-gray-600 hover:text-[#0069FD] text-sm"
             >
               Privacy Policy
             </Link>
             <Link
-              href="/faq"
+              href="https://www.rushdr.com/refund-policy"
               className="text-gray-600 hover:text-[#0069FD] text-sm"
             >
-              FAQ
+              Refund Policy
             </Link>
           </div>
         </div>

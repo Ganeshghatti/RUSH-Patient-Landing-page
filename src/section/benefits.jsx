@@ -21,7 +21,10 @@ const Benefits = () => {
   ];
 
   return (
-    <section id="benefits" className="py-24 bg-gradient-to-b from-white to-[#F5F8FF]">
+    <section
+      id="benefits"
+      className="py-24 bg-gradient-to-b from-white to-[#F5F8FF]"
+    >
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           {/* Left side - Why Families Love RUSHDR */}

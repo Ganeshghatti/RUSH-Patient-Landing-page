@@ -4,6 +4,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
+import Link from "next/link";
+
 const CTA = () => {
   return (
     <section id="cta" className="py-20 bg-[#0069FD] relative overflow-hidden">
@@ -40,12 +42,14 @@ const CTA = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <Button
-              size="lg"
-              className="bg-white text-[#0069FD] hover:bg-blue-50 text-lg px-10 h-14"
-            >
-              Register Now
-            </Button>
+            <Link href="https://app.rushdr.com/patient/register">
+              <Button
+                size="lg"
+                className="bg-white text-[#0069FD] hover:bg-blue-50 text-lg px-10 h-14"
+              >
+                Register Now
+              </Button>
+            </Link>
             <p className="text-blue-100 mt-4">
               It's free, fast, and your first step to better care!
             </p>

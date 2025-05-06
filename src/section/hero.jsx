@@ -5,6 +5,8 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
+import Link from "next/link";
+
 const Hero = () => {
   return (
     <div id="hero" className="bg-[#0069FD] mt-4 relative overflow-hidden">
@@ -46,12 +48,14 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.8 }}
             >
-              <Button
-                size="lg"
-                className="bg-white text-[#0069FD] hover:bg-blue-50"
-              >
-                Book an Appointment
-              </Button>
+              <Link href="https://app.rushdr.com/patient/register">
+                <Button
+                  size="lg"
+                  className="bg-white text-[#0069FD] hover:bg-blue-50"
+                >
+                  Book an Appointment
+                </Button>
+              </Link>
             </motion.div>
 
             <motion.div
