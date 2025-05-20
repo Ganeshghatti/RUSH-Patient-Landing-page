@@ -22,7 +22,8 @@ const CTA = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            Register Today – Protect Your Family's Health!
+           Register now & protect your family's health <span className="text-red-500">24x7
+            </span>
           </motion.h2>
 
           <motion.p

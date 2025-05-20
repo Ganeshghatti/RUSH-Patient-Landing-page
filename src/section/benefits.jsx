@@ -6,18 +6,17 @@ import { Button } from "@/components/ui/button";
 
 const Benefits = () => {
   const benefitsList = [
-    "Secure & Private",
-    "Doctor-Owned, Not Corporate",
-    "Your Data is yours only shared with only your doctor",
-    "Built for YOU — No Middlemen",
-    "User-Friendly & 24/7 Accessible",
+    "Secure & Private – Your data is yours, shared only with your doctor",
+    "Doctor-Owned – Not run by corporates",
+    "Built for You – No middlemen involved",
+    "User-Friendly – 24x7 access anytime, anywhere",
+    "Transparent Payments – No hidden charges",
   ];
 
   const paymentFeatures = [
+    "Supports UPI, Debit/Credit Cards, Net Banking, Wallets",
+    "Get instant invoices and detailed transaction history",
     "Make payments with confidence using encrypted methods",
-    "Supports UPI, debit/credit cards, net banking, wallets",
-    "Instant invoices and complete transaction history for every consultation",
-    "No hidden charges – Transparent & Trustworthy",
   ];
 
   return (

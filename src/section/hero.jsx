@@ -81,7 +81,7 @@ const Hero = () => {
             <div className="relative h-[400px] md:block hidden md:h-[500px] w-full">
               <div className="absolute inset-0 bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/hero.jpg"
+                  src="/Hero1.jpeg"
                   alt="Doctor with patient"
                   fill
                   className="object-cover rounded-2xl"
