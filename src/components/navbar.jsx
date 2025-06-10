@@ -48,7 +48,7 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-<Link href="https://rushdr.com" className="flex items-center">
+<Link href="https://rushdr.com">
               <div className="relative  w-28 cursor-pointer overflow-hidden flex items-center">
                 <Image
                   src="/logo.jpg"
